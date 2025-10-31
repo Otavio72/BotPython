@@ -25,16 +25,16 @@ O **ACS** é uma aplicação local que extrai dados de telemetria do jogo Assett
 ## 💻 Layout da aplicação
 
 ### Página inicial
-![Página Inicial](assets/acs1.png)
+![Página Inicial](assets/1.png)
 
 ### Página de Status
-![Página de Status](assets/acs2.png)
+![Página de Status](assets/2.png)
 
 ### Menu de Stints
-![Menu de Stints](assets/acs3.png)
+![Menu de Stints](assets/3.png)
 
 ### Pagina de analise
-![Pagina de analise](assets/acs4.png)
+![Pagina de analise](assets/BotGIF.png)
 
 ---
 
