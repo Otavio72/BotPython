@@ -17,8 +17,8 @@ Ele é capaz de processar mais de 400 arquivos em menos de 60 segundos, gerando 
 ### Página de Status
 ![Página de Status](assets/2.png)
 
-### Menu de Stints
-![Menu de Stints](assets/3.png)
+### Página de Limpesa
+![Página de Limpesa](assets/3.png)
 
 ---
 
