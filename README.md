@@ -2,25 +2,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Otavio72/BotPython/blob/main/LICENSE)
 
-**ACS** surgiu durante minha participação em um campeonato da **World Sim Series (WSS)**. Nos treinos, percebi a necessidade de uma análise mais detalhada dos stints (sequências de voltas), o que inspirou a criação deste projeto.
-
----
+O BotPython é um bot de automação feito em Python que lê centenas de arquivos .csv, processa os dados e gera relatórios consolidados em Excel automaticamente — rápido, leve e sem dor de cabeça.
 
 ## 🛠️ Sobre o projeto
 
-O **ACS** é uma aplicação local que extrai dados de telemetria do jogo Assetto Corsa, envia os tempos de volta para um servidor com banco de dados **MySQL**, e os recupera para gerar gráficos comparativos entre dois stints. Esses dados são enviados à API do **GEMINI**, onde um "engenheiro virtual" interpreta os resultados e fornece feedback técnico via chat.
-
-
-### Funcionalidades principais:
-
-- 🧾 Extração de dados via **Shared Memory**, com base no mod template de [Hunter Vaners](https://github.com/huntervaners/Template_Assetto_Corsa_App)
-- 📈 Geração de gráficos comparativos com **Matplotlib**
-- 🤖 Feedback técnico com **GEMINI API**
-- 💾 Armazenamento em banco de dados **MySQL**
-- 🌙 Interface gráfica com **CustomTkinter**
-- 🔌 Comunicação entre cliente e servidor via Sockets com select para conexões simultâneas
-
----
+Feito pra quem lida com grandes volumes de dados e precisa automatizar tarefas repetitivas, o BotPython utiliza pandas e openpyxl pra manipular arquivos com eficiência.
+Ele é capaz de processar mais de 400 arquivos em menos de 60 segundos, gerando planilhas bem estruturadas e prontas pra análise.
 
 ## 💻 Layout da aplicação
 
@@ -32,6 +19,7 @@ O **ACS** é uma aplicação local que extrai dados de telemetria do jogo Assett
 
 ### Menu de Stints
 ![Menu de Stints](assets/3.png)
+
 ---
 
 ## 🗂️ GIFs
@@ -42,6 +30,8 @@ O **ACS** é uma aplicação local que extrai dados de telemetria do jogo Assett
 
 ### 🔙 Back end
 - Python
+- Pandas
+- OpenPyXL
 
 ### 🎨 Interface
 - CustomTkinter
@@ -50,33 +40,27 @@ O **ACS** é uma aplicação local que extrai dados de telemetria do jogo Assett
 ### 📦 Instalação
 
 ```bash
-# clonar repositório
-git clone https://github.com/Otavio72/Assetto-Corsa-Stints-ACS-.git
+# Clone o repositório
+git clone https://github.com/Otavio72/BotPython.git
 
-Ative o ambiente virtual:
-  python -m venv .venv
+# Entre na pasta
+cd BotPython
 
-No Windows (PowerShell):
-  ```powershell
-  .venv\Scripts\Activate.ps1
+# Crie o ambiente virtual
+python -m venv .venv
 
-No Linux/macOS:
-  source .venv/bin/activate
+# Ative o ambiente
+.venv\Scripts\activate  # Windows
+source .venv/bin/activate  # Linux/macOS
 
-# acesse o diretorio
-cd Assetto-Corsa-Stints-ACS-
+# Instale as dependências
+pip install -r requirements.txt
 
-Instale as dependências:
-  pip install -r requirements.txt
-
-# acesse o dirtetorio da versao demo
-cd DEMO
-
-# Rode
-  python ACS.vDEMO.py
+# Rode o bot
+python bot.py
 
 ```
 
 # Autor
 Otávio Ribeiro
-[🔗LinkedIn](https://www.linkedin.com/in/otávio-ribeiro-57a359197)
+[🔗LinkedIn](https://www.linkedin.com/in/otavio-ribeiro-57a359197)
